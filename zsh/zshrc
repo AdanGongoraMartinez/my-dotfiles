@@ -120,5 +120,11 @@ alias fzfb='fzf -m --preview="bat --color=always {}"'
 # Alias para abrir en Neovim los archivos seleccionados con fzf y vista previa usando bat
 alias fzfn='nvim $(fzf -m --preview="bat --color=always {}")'
 
+# Alias para ejecutar proyectos de spring-boot
+alias mvnsr='./mvnw spring-boot:run'
+
+# Alias para ejecutar proyectos de spring-boot
+alias ezai='eza --icons --group-directories-first'
+alias ezal='eza --icons --group-directories-first -a'
 
 eval "$(zoxide init zsh)"
